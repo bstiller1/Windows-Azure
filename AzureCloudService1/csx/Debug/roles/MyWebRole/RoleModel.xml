@@ -15,14 +15,14 @@
     <Property name="SetConfiguration" value="Configuration=Debug" />
     <Property name="SetPlatform" value="Platform=AnyCPU" />
     <Property name="RoleTargetFramework" value="v4.5" />
-    <Property name="OutputDir" value="C:\Users\triosStudent\documents\visual studio 2013\Projects\AzureCloudService1\AzureCloudService1\obj\Debug\MyWebRole\" />
+    <Property name="OutputDir" value="C:\Users\triosStudent\Documents\Visual Studio 2013\Projects\AzureCloudService1\Windows-Azure\AzureCloudService1\obj\Debug\MyWebRole\" />
     <Property name="EntryPoint" value="MyWebRole.dll" />
-    <Property name="SourceDir" value="C:\Users\triosStudent\documents\visual studio 2013\Projects\AzureCloudService1\MyWebRole\" />
-    <Property name="SitePhysicalPath" value="C:\Users\triosStudent\documents\visual studio 2013\Projects\AzureCloudService1\MyWebRole\" />
+    <Property name="SourceDir" value="C:\Users\triosStudent\Documents\Visual Studio 2013\Projects\AzureCloudService1\Windows-Azure\MyWebRole\" />
+    <Property name="SitePhysicalPath" value="C:\Users\triosStudent\Documents\Visual Studio 2013\Projects\AzureCloudService1\Windows-Azure\MyWebRole\" />
     <Property name="TargetRuntimeVersion" value="v4.0" />
   </Properties>
   <Sites>
-    <Site name="Web" physicalDirectory="C:\Users\triosStudent\documents\visual studio 2013\Projects\AzureCloudService1\MyWebRole\">
+    <Site name="Web" physicalDirectory="C:\Users\triosStudent\Documents\Visual Studio 2013\Projects\AzureCloudService1\Windows-Azure\MyWebRole\">
       <Bindings>
         <Binding name="Endpoint1" endpointName="Endpoint1" />
       </Bindings>

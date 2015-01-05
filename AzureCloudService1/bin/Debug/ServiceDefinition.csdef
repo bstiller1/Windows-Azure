@@ -25,7 +25,7 @@
     </ConfigurationSettings>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\triosStudent\documents\visual studio 2013\Projects\AzureCloudService1\AzureCloudService1\rcf\Debug\MyWebRoleContent\" />
+        <SourceDirectory path="C:\Users\triosStudent\Documents\Visual Studio 2013\Projects\AzureCloudService1\Windows-Azure\AzureCloudService1\rcf\Debug\MyWebRoleContent\" />
       </Content>
     </Contents>
   </WebRole>

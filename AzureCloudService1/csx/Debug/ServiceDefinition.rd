@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AzureCloudService1" generation="1" functional="0" release="0" Id="0894a940-36c6-4d2e-a575-423cee38d702" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AzureCloudService1" generation="1" functional="0" release="0" Id="eecd7d7d-b167-4cb7-a217-d795cf886bf5" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="AzureCloudService1Group" generation="1" functional="0" release="0">
       <componentports>
@@ -42,7 +42,7 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="MyWebRole" generation="1" functional="0" release="0" software="C:\Users\triosStudent\documents\visual studio 2013\Projects\AzureCloudService1\AzureCloudService1\csx\Debug\roles\MyWebRole" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="-1" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
+          <role name="MyWebRole" generation="1" functional="0" release="0" software="C:\Users\triosStudent\Documents\Visual Studio 2013\Projects\AzureCloudService1\Windows-Azure\AzureCloudService1\csx\Debug\roles\MyWebRole" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="-1" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Endpoint1" protocol="http" portRanges="80" />
             </componentports>
@@ -70,9 +70,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="013d79cc-8cde-45ee-acd8-df6b708af629" ref="Microsoft.RedDog.Contract\ServiceContract\AzureCloudService1Contract@ServiceDefinition">
+    <implementation Id="71c07f33-cba0-45a5-9ead-1522955a2141" ref="Microsoft.RedDog.Contract\ServiceContract\AzureCloudService1Contract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="78fa345e-94e5-4e74-a3bf-e183892a8f45" ref="Microsoft.RedDog.Contract\Interface\MyWebRole:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="6eab9ff8-4e0e-416b-a276-2878fbd556ec" ref="Microsoft.RedDog.Contract\Interface\MyWebRole:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/AzureCloudService1/AzureCloudService1Group/MyWebRole:Endpoint1" />
           </inPort>

@@ -26,7 +26,7 @@ namespace MyWebRole
             CloudBlobContainer container = blobClient.GetContainerReference("quicklap");
 
             // Loop over items within the container and output the length and URI.
-            foreach (IListBlobItem item in container.ListBlobs(null, false))
+            foreach (IListBlobItem item in container.ListBlobs(null, true))
             {
                 if (item.GetType() == typeof(CloudBlockBlob))
                 {
